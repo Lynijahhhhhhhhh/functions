@@ -28,7 +28,19 @@
 #   10° celsius is 50° fahrenheit
 #
 # WRITE CODE BELOW
+def find_cel(f):
+    c = (f - 32) * (5/9)
+    ans= print(f,"° fahrenheit is", c, "° celsius")
+    return ans
+def find_fah(c):
+    f=(c*1.8)+32
+    ans =print(c,"° celsius is", f, "° fahrenheit")   
+    return ans
 
+print("Finding temps")
+find_cel(72)
+find_fah(10)
+print()
 
 # 2 | Celsius to Kelvin
 #
@@ -51,6 +63,18 @@
 #   232° kelvin is -41.15° celsius
 #
 # WRITE CODE BELOW
+def find_kel(c):
+    k = c + 273.15
+    ans =print(c,"° celsius is", k, "° kelvin")
+    return ans
+def find_new_cel(k):
+    c = k - 273.15
+    ans= print(k,"° kelvin is", c, "° celsius")
+    return ans
+print("Finding New temps")
+find_kel(45)
+find_new_cel(232)
 
 
 # Question: How could you use these functions to convert a temperature in fahrenheit to kelvin?
+#I would use the "find_cel" function thats fahrenheit to celcius and use that number to find the wanted kelvin in "find_kel"

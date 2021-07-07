@@ -1,41 +1,49 @@
-Name:
-Date:
+Name:Lynijah Russell
+Date:07-07-2021
 
 1 - What is the return value of the len() function?
-
+the length of the string argument
 
 
 2 - What is the return value of the print() function?
+whatever the argument within the parentheses says or if you try to return print it'll return "None"
 
 
 
 3 - Can a function be used in an operation or expression?
+yes
 
 
 
 4 - Are functions name case-sensitive?
+very
 
 
 
 5 - What are the 3 rules behind good names for variables and functions?
 
+1.Do not start with number
+2.No spaces
+3.Only a-z, A-Z, 1,9 and underscores
 
 
 6 - What is the keyword used to define a function?
+def
 
 
 
 7 - What is name of the values used in a function call?
-
+argument
 
 
 8 - What is the name of the values used in a function definition?
-
+arguments
 
 
 9 - Are parameters variables?
-
+no
 
 10 - How do you return a value?
+return statements which is the return keyword followed by  the return value
 
 

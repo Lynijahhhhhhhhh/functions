@@ -1,5 +1,5 @@
-# author:
-# date:
+# author: Lynijah Russell
+# date: July 07, 2021
 
 
 # --------------- Section 1 --------------- #
@@ -23,9 +23,15 @@
 # help you find the right function.
 #
 # 1 is done for you.
-
+print("Section One")
 print('The absolute value of -15 is:', abs(-15))
-
+hexa=hex(21)
+print("The Hexadecimal number of 21 is",hexa)
+print( "the id of that hexadecimal is" ,id(hexa))
+print("2 to the 5th power is",pow(2,5))
+print("3.75123 rounded to the nearest integer is",round(3.75123))
+print("The length of my name is",len("Lynijah") + len("Russell"))
+print(" ")
 
 # --------------- Section 2 --------------- #
 
@@ -43,8 +49,29 @@ print('The absolute value of -15 is:', abs(-15))
 #   1 - Call each function once.
 #
 # WRITE CODE BELOW
+print("Section 2")
+def my_name():
+    print("My name:")
+    print("Lynijah Faith Russell")
 
 
+def fav_animals():
+    print("Favorite Animals")
+    print("1: Cats")
+    print("2: Zebra's")
+    print("3: Dogs")
+
+
+def odd_num():
+    print("Three odd numbers")
+    for i in range(1,6,2):
+        print(i) 
+
+
+my_name()
+fav_animals()
+odd_num()
+print(" ")
 # 2 | Function Definitions with Parameters
 #
 # Relevant Documentation:
@@ -71,3 +98,22 @@ print('The absolute value of -15 is:', abs(-15))
 #   2 - For the 3rd function, save the return value to a variable and print it.
 #
 # WRITE CODE BELOW
+print("Section 3 ")
+def cubed_num(a):
+    cube= a**3
+    print(cube)
+
+
+def three_digit_sum(a,b,c):
+    sum= a+b+c
+    print(sum)
+
+
+def string_dup(a):
+    dup=a*5
+    return dup
+
+cubed_num(43)
+three_digit_sum(123456789,987654321,918273645)
+string_dup("̿̿ ̿̿ ̿̿ ̿'̿'\̵͇̿̿\з= ( ▀ ͜͞ʖ▀) =ε/̵͇̿̿/’̿’̿ ̿ ̿̿ ̿̿ ̿̿                     ")
+
